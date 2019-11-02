@@ -2,11 +2,13 @@
 (require csc151)
 
 ;************************************************************************************
+;location of movie file
 (define tmdb-table
-  (read-csv-file "/home/carnauba/Desktop/tmdb_5000_movies.csv"))
+  (read-csv-file ""))
 
+;location of verb file
 (define verb-table
-  (read-csv-file "/home/carnauba/Desktop/most-common-verbs-english.csv"))
+  (read-csv-file ""))
 ;************************************************************************************
 
 ;************************************************************************************
